@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height:50vw;
+    background-color: #F6704B;
+    display: flex;
+    justify-content: center;
+}
+
+.accordione {
+    list-style: none;
+    
+
+}
+
+.item {
+    width: 380px;
+    padding: 26px 22px;
+}
+
+.item__header {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.item__text {
+    padding-top: 20px;
+    display: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+.item--locatione{   
+    background: #620808;
+    color: #FFE9C1;
+}
+.item--music{
+    background: #A53F3F;
+    color: #FFE9C1;
+}
+.item--notes{
+    background: #F4CE74;
+    color: #620808;
+}
+.item--books{
+    background: #FFE9C1;
+    color: #620808;
+}
+.item--tendances{
+    background: #D5441C;
+    color: #FFE9C1;
+}
+.item--locatione:hover .item__text{
+    display: block;
+}
+.item--music:hover .item__text{
+    display: block;
+}
+
+.item--notes:hover .item__text{
+    display: block;
+}
+.item--books:hover .item__text{
+    display: block;
+}
+.item--tendances:hover .item__text{
+    display: block;
+}
+
+
